@@ -649,7 +649,7 @@ export function Chat() {
           </div>
           <div className="window-header-sub-title">
             {Locale.Chat.SubTitle(session.messages.length)}
-            <span style="font-size: 14px; color: orange; font-weight: normal;">&nbsp;&nbsp;亲爱的朋友们，该网站Token即将到期，有一个每天20次可用的网站，需要的可以去看看<a href="https://tomchat.top/" about="_blank">https://tomchat.top/</a></span>
+            <span style={{fontSize: '14px'; color: 'orange'; fontWeight: 'normal';}}>&nbsp;&nbsp;亲爱的朋友们，该网站Token即将到期，有一个每天20次可用的网站，需要的可以去看看<a href="https://tomchat.top/" about="_blank">https://tomchat.top/</a></span>
           </div>
         </div>
         <div className="window-actions">
